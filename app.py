@@ -14,7 +14,10 @@ st.write("Upload your UPI transaction screenshot to extract financial insights")
 uploaded_file = st.file_uploader("Choose a UPI transaction screenshot", type=["jpg", "jpeg", "png"])
 
 # API configuration
+import streamlit as st
 API_URL = "http://localhost:8000/api/test/test-ocr"  # Change to your backend URL
+OPENAI_KEY = st.secrets["OPENAI_API_KEY"]  # Get from Streamlit secrets
+
 
 if uploaded_file is not None:
     # Display the uploaded image
