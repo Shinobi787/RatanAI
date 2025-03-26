@@ -1,6 +1,6 @@
 # RatanAI
 
-![Demo](https://via.placeholder.com/800x400?text=UPI+Transaction+Analyzer+Demo)
+
 
 A fintech application that analyzes UPI transaction screenshots using AI to provide spending insights.
 
